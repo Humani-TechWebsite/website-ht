@@ -34,3 +34,52 @@
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     background-color: #ffbbbb;
 }
+
+
+.carousel-indicators li {
+    background-color: transparent;
+    /*background-color: #ffbbbb;*/
+    border-width: 0;
+}
+
+.carousel-indicators .active {
+    background-color: transparent;
+    /*background-color: #ff5555;*/
+    border-width: 0;
+}
+
+.carousel .item {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.carousel-control {
+    border-radius: 10px;
+}
+
+.carousel {
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+}
+
+#main-banner-image {
+    background-image: url("../images/HTfinallogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    width: 100%;
+    height: 30vw;
+    position: fixed;
+    z-index: -1;
+}
+
+#header-push {
+    height: 30vw;
+}
+
+#content {
+    background-color: white;
+    /*height: 50vh;*/
+    overflow: hidden;
+}
