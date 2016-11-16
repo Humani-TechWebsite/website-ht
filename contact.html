@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact Us</title>
 </head>
-<body>
-
-</body>
+	<body>
+		<!-- I added the form but if you can figure out how to actually make the server side, that'd be great because I'm lost-->
+        <form id = "contact-form" action = "" method = "POST">
+            Your name:<br>
+            <input name="name" type="text" size="30"/><br>
+            Your email:<br>
+            <input name="email" type="text" size="30"/><br>
+            Subject:<br>
+            <input name="subject" type="text" size="30"/><br>
+            Your message:<br>
+            <textarea name="message" rows="7" cols="30"></textarea><br>
+            <input type="submit" value="Send email"/>
+        </form>
+	</body>
 </html>
