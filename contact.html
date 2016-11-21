@@ -2,20 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
+    <link rel="shortcut icon" type="image/png" href="./images/Favicon.png"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="none"
+          onload="if(media!='all')media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </noscript>
+
+    <link rel="stylesheet" href="./CSS/style.css" media="none" onload="if(media!='all')media='all'">
+    <noscript>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </noscript>
+
 </head>
-	<body>
-		<!-- I added the form but if you can figure out how to actually make the server side, that'd be great because I'm lost-->
-        <form id = "contact-form" action = "" method = "POST">
-            Your name:<br>
-            <input name="name" type="text" size="30"/><br>
-            Your email:<br>
-            <input name="email" type="text" size="30"/><br>
-            Subject:<br>
-            <input name="subject" type="text" size="30"/><br>
-            Your message:<br>
-            <textarea name="message" rows="7" cols="30"></textarea><br>
-            <input type="submit" value="Send email"/>
-        </form>
-	</body>
+<body>
+
+<div id="main-banner-image"></div>
+<div id="header-push"></div>
+
+<!--<h1>Humani Tech</h1>-->
+<div id="content">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="#">Brand</a>-->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="fade-on-hover"><a href="./index.html">Home</a></li>
+                <!--<li class="fade-on-hover"><a href="./team.html">Meet the Team</a></li>-->
+                <li class="fade-on-hover"><a href="./projects.html">Projects</a></li>
+                <li class="fade-on-hover"><a href="./join.html">Join</a></li>
+                <li class="active"><a id="current-tab" href="#">Contact<span class = "sr-only">(current)</span></a></li>
+                <!--<li><a href="#">Contact</a></li>-->
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="container-fluid">
+                <h1>Contact Us</h1>
+                <h2>Email Form</h2>
+            </div>
+        </div>
+    </div>
+    <!-- I added the form but if you can figure out how to actually make the server side, that'd be great because I'm lost-->
+    <form id = "contact-form" action = "" method = "POST">
+        Your name:<br>
+        <input name="name" type="text" size="30"/><br>
+        Your email:<br>
+        <input name="email" type="text" size="30"/><br>
+        Subject:<br>
+        <input name="subject" type="text" size="30"/><br>
+        Your message:<br>
+        <textarea name="message" rows="7" cols="30"></textarea><br>
+        <input type="submit" value="Send email"/>
+    </form>
+</body>
 </html>
